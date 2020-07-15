@@ -35,7 +35,7 @@
 	Route::middleware('guest')->group(function (){
 		Route::get('/', 'IndexController@appIndex');
 		Route::get('/services', 'IndexController@services');
-		Route::get('/about-us', 'IndexController@about-us');
-		Route::get('/contact-us', 'IndexController@contact-us');
+		Route::get('/about-us', 'IndexController@about_us');
+		Route::get('/contact-us', 'IndexController@contact_us');
 		Route::get('/', 'IndexController@appIndex');
 	});
