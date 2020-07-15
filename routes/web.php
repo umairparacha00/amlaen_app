@@ -38,4 +38,7 @@
 		Route::get('/about-us', 'IndexController@about_us');
 		Route::get('/contact-us', 'IndexController@contact_us');
 		Route::get('/', 'IndexController@appIndex');
+		Route::get('/umair', function (){
+			return 'Umair';
+;		});
 	});
